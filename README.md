@@ -2,6 +2,7 @@
 # SpaceX Falcon 9 Landing Prediction
 
 ## Project Overview
+In this project, we aim to predict the successful landing of the Falcon 9 first stage, a critical component of SpaceX's cost-saving strategy. SpaceX advertises Falcon 9 rocket launches at a significantly lower cost of $62 million, compared to other providers charging upwards of $165 million. This dramatic reduction is largely due to SpaceX's ability to reuse the first stage of their rockets. By accurately predicting whether the first stage will land successfully, we can estimate the overall cost of a launch more precisely.
 
 Example of a successful and launch : 
 
@@ -11,7 +12,6 @@ Several examples of an unsuccessful landing :
 
 ![1724938046898](image/README/1724938046898.png)
 
-In this project, we aim to predict the successful landing of the Falcon 9 first stage, a critical component of SpaceX's cost-saving strategy. SpaceX advertises Falcon 9 rocket launches at a significantly lower cost of $62 million, compared to other providers charging upwards of $165 million. This dramatic reduction is largely due to SpaceX's ability to reuse the first stage of their rockets. By accurately predicting whether the first stage will land successfully, we can estimate the overall cost of a launch more precisely.
 
 ## Why This Matters
 
