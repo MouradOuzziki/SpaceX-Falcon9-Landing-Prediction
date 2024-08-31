@@ -11,7 +11,7 @@ from sklearn import preprocessing
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -21,7 +21,6 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 import warnings
 warnings.filterwarnings('ignore')
 
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 def load_data():
     # Load the dataset
